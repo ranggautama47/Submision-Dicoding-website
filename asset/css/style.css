@@ -203,7 +203,7 @@ aside.hero-phone {
   padding: 4rem 5%;
   /* Background pattern sayuran (tanpa orang) */
   background-color: #ff9a4a;
-  background-image: url("asset/img/vegetable-pattern.png");
+  background-image: url("../asset/img/vegetable-pattern.png");
  /* Pattern sayuran saja */
   background-size: auto;
   background-repeat: repeat;
