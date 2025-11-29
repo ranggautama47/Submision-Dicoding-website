@@ -1,4 +1,4 @@
 echo ".history/" >> .gitignore
 echo "2.zip" >> .gitignore
 echo "Rangkuman Kelas.docx" >> .gitignore
-echo "asset.zip" >> .gitignore
+echo "asset.zip" >> .gitignore 
