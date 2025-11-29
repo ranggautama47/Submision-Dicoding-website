@@ -203,7 +203,7 @@ aside.hero-phone {
   padding: 4rem 5%;
   /* Background pattern sayuran (tanpa orang) */
   background-color: #ff9a4a;
-  background-image: url("../img/vegetable-pattern.png");/* Pattern sayuran saja */
+  background-image: url("../img/vegetable-pattern.png"); /* Pattern sayuran saja */
   background-size: auto;
   background-repeat: repeat;
   background-position: center;
@@ -1488,18 +1488,18 @@ body {
 /* ===============================
    MOBILE NAVIGATION
 =============================== */
-@media(max-width:768px){
-  header{
-    height:auto;
+@media (max-width: 768px) {
+  header {
+    height: auto;
     padding: 0.7rem 4%;
     position: sticky;
-    top:0;
-    background:white;
+    top: 0;
+    background: white;
   }
 
-  .logo-icon{
-    width:70px !important;
-    height:auto !important;
+  .logo-icon {
+    width: 70px !important;
+    height: auto !important;
   }
 }
 
@@ -1560,7 +1560,7 @@ body {
     font-weight: 700;
     color: #2d5016;
     display: block;
-    margin-top:-3px; 
+    margin-top: -3px;
   }
 
   .hamburger {
