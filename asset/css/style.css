@@ -1602,7 +1602,7 @@ body {
   }
 }
 
-/* Tambahkan ini di untuk firefox agar img tidakbisa di drag */
+/* Tambahkan ini di untuk firefox dan safari agar img tidakbisa di drag */
 .app-button, 
 .app-button img,
 .cta-button-wa,
@@ -1620,5 +1620,7 @@ body {
 
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none;
+  user-select: none;
 
 }
