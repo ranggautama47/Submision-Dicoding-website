@@ -1624,7 +1624,29 @@ body {
   user-select: none;
 }
 
-img {
+.app-button, 
+.app-buttons,
+.cta-button,
+.cta-button-wa,
+.social-icons,
+.app-button img,
+.cta-button img {
   -moz-user-select: none;
+  -moz-user-drag: none;
+  user-select: none;
+  
+}
+
+img {
+  -webkit-user-drag: none;  /* Chrome */
+  -moz-user-select: none;   /* Firefox fix */
+  -moz-user-drag: none;     /* Firefox fix */
+  user-select: none;
+}
+
+
+a img {
+  -moz-user-select: none;
+  -moz-user-drag: none;
   user-select: none;
 }
