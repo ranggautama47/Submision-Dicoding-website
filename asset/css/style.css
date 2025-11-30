@@ -165,6 +165,7 @@ nav a:hover {
 .app-button img {
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 .app-button:hover {
@@ -236,6 +237,7 @@ aside.hero-phone {
   object-fit: contain;
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 .features-image:hover {
@@ -323,6 +325,7 @@ aside.hero-phone {
   flex-shrink: 0;
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 /* TEXT */
@@ -625,6 +628,7 @@ aside.hero-phone {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 .benefits-image:hover {
@@ -738,6 +742,7 @@ aside.hero-phone {
   max-width: 500px;
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 /* About Section */
@@ -766,6 +771,7 @@ aside.hero-phone {
   max-width: 450px;
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 .about-logo:hover {
@@ -803,12 +809,15 @@ aside.hero-phone {
   height: 22px;
   object-fit: contain;
   -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .cta-button-wa,
 .cta-button-wa img {
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 /* HOVER EFFECT — membesar & smooth */
@@ -875,6 +884,7 @@ aside.hero-phone {
 .cta-button img {
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 .cta-button {
   display: inline-block;
@@ -969,6 +979,7 @@ footer.main-footer {
   height: 50px;
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 /* === SOCIAL ICONS === */
@@ -976,7 +987,11 @@ footer.main-footer {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
+
 .social-icons a {
   font-size: 2rem;
   color: #2d5016;
@@ -1006,6 +1021,7 @@ footer.main-footer {
   object-fit: cover; /* safety; image will fill width, height follows aspect */
   -webkit-user-drag: none;
   user-select: none;
+  pointer-events: none;
 }
 
 /* DESKTOP / LARGE SCREEN FIX */
